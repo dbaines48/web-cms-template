@@ -1,0 +1,11 @@
+{
+  "name": "web-cms-template",
+  "version": "1.0.0",
+  "description": "CMS Template for phase 1",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
