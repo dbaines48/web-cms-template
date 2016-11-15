@@ -1,11 +1,9 @@
-angular.module('myCMSApp', ['ngRoute']);
-
-angular.module('myCMSApp').
-config(function($routeProvider){
+angular.module('myCMSApp', ['ngRoute'])
+.config(function($routeProvider){
   $routeProvider
     .when('/', {
-      templateUrl: 'views/home.html'
       controller: 'HomeController',
+      templateUrl: 'views/home.html',
     })
     .when('/madres', {
 
